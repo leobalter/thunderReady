@@ -6,10 +6,12 @@ It's more like than jQuery.ready(), it's a copy of it's functionality.
 
 ## The usage is simple:
 
+### in your html head:
 ```HTML
 <script src="thunderReady.min.js"></script>
 ```
 
+### in your JavaScript files:
 ```Javascript
 thunderReady(function() {
 	/* do something when the DOM is ready */
